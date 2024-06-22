@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario de Pesquisa</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <form method="post" action="processar-pesquisa.html">
+        <section>
+            <h2>Dados pessoais</h2>
+            <P>
+                <label>Nome:</label>
+                <input type="text" id="Nome"/>
+            <p>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email"/>
+            </p>
+            <p>
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone"/>
+                </p>
+            </P>
+        </section>
+        <section>
+            <h2>Dados de pesquisa</h2>
+            <p>
+                Numa escala de 1 a5, indique o nivel de atendimento
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="1">1</label>
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="2">2</label>
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="3">3</label>
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="4">4</label> 
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="5">5</label>
+            </p>
+            <p>
+                Numa escala de 1 a 5, indique nivel de Satisfação
+                <input type="radio" id="1" name="nivel-satisfação "/>
+                <label for="1">1</label>
+                <input type="radio" id="1" name="nivel-satisfação"/>
+                <label for="2">2</label>
+                <input type="radio" id="1" name="nivel-satisfação"/>
+                <label for="3">3</label>
+                <input type="radio" id="1" name="nivel-satisfação"/>
+                <label for="4">4</label>
+                <input type="radio" id="1" name="nivel-satisfação"/>
+                <label for="5">5</label> <input type="radio" id="1" name="nivel-satisfação"/>
+            </p>
+            <p>
+                <label for="departamento"></label>Departamento de atendimento: </label>
+                <select>
+                    <option>Markenting</option>
+                    <option>Financeiro</option>
+                    <option>Comercial</option>
+                    <option>Logistica</option>
+                    <option>Rh</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="compartilhar-daddos"/>
+                <label for="compartilhar-dados">Autorizo compartilhamento de dados com terceiros</label> 
+            </p>
+
+        </section>
+        <input type="submit" enviar>
+
+    </form>
+</body>
+<html>
