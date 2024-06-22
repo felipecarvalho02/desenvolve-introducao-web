@@ -1,0 +1,14 @@
+/* Color Theme Swatches in Hex */
+/*
+.principal { color: #146152; }
+.background { color: #44803F; }
+.Tropical-Fruit-Punch-3-hex { color: #B4CF66; }
+.Tropical-Fruit-Punch-4-hex { color: #FFEC5C; }
+.destaque { color: #FF5A33; } 
+*/
+
+html {
+    background: #44803F ;
+    color: #146152;
+}
+
